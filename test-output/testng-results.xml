@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57981" started-at="2020-09-29T02:19:18 EET" finished-at="2020-09-29T02:20:16 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@462d5aee]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="57981" started-at="2020-09-29T02:19:18 EET" finished-at="2020-09-29T02:20:16 EET">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@462d5aee]" name="setUpClass" is-config="true" duration-ms="277" started-at="2020-09-29T02:19:18 EET" finished-at="2020-09-29T02:19:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@462d5aee]" name="runScenario" duration-ms="57646" started-at="2020-09-29T02:19:18 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-29T02:20:16 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Can Select SeaFood dish Randomly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User Can Select SeaFood dish Randomly and add all available items in cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@462d5aee]" name="tearDownClass" is-config="true" duration-ms="14" started-at="2020-09-29T02:20:16 EET" finished-at="2020-09-29T02:20:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
